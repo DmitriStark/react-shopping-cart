@@ -9,9 +9,9 @@ export function Navbar() {
         <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
             <Container>
                 <Nav className="me-auto">
-                    <Nav.Link to="/" as={NavLink}>Home</Nav.Link>
-                    <Nav.Link to="/Store" as={NavLink}>Store</Nav.Link>
-                    <Nav.Link to="/About" as={NavLink}>About</Nav.Link>
+                    <Nav.Link to="react-shopping-cart/" as={NavLink}>Home</Nav.Link>
+                    <Nav.Link to="react-shopping-cart//Store" as={NavLink}>Store</Nav.Link>
+                    <Nav.Link to="react-shopping-cart//About" as={NavLink}>About</Nav.Link>
                 </Nav>
                 {cartQuantity > 0 && (
                     <Button onClick={openCart} variant="outline-primary" className="rounded-circle" style={{ width: "3rem", height: "3rem", position: "relative" }}>
